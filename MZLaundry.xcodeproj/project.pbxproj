@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541908153096A1AB45F0C958 /* Pods_MZLaundry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52144D530FE7649B44584DC4 /* Pods_MZLaundry.framework */; };
+		9B0894531BE7644F007FEE9D /* DailyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894521BE7644F007FEE9D /* DailyInfo.swift */; };
+		9B0894551BE76623007FEE9D /* OrderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894541BE76623007FEE9D /* OrderInfo.swift */; };
+		9B0894571BE76B4B007FEE9D /* IncomeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894561BE76B4B007FEE9D /* IncomeInfo.swift */; };
+		9B0894591BE782A5007FEE9D /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894581BE782A5007FEE9D /* IncomeTableViewCell.swift */; };
+		9B08945F1BE9E823007FEE9D /* SingleWashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08945E1BE9E823007FEE9D /* SingleWashViewController.swift */; };
+		9B0894621BEC64C4007FEE9D /* SingleWashCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894611BEC64C4007FEE9D /* SingleWashCollectionViewCell.swift */; };
+		9B0894A51BEE2A32007FEE9D /* Data4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894A41BEE2A32007FEE9D /* Data4Cell.swift */; };
+		9B0894A91BF0649E007FEE9D /* ModiTabbar_SingleWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894A81BF0649E007FEE9D /* ModiTabbar_SingleWash.swift */; };
+		9B0894AE1BF216F4007FEE9D /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894AD1BF216F4007FEE9D /* AddToCartViewController.swift */; };
+		9B4739561BC6A26200E92482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4739551BC6A26200E92482 /* AppDelegate.swift */; };
+		9B47395B1BC6A26200E92482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4739591BC6A26200E92482 /* Main.storyboard */; };
+		9B47395E1BC6A26200E92482 /* MZLaundry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B47395C1BC6A26200E92482 /* MZLaundry.xcdatamodeld */; };
+		9B4739601BC6A26200E92482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B47395F1BC6A26200E92482 /* Assets.xcassets */; };
+		9B4739631BC6A26200E92482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4739611BC6A26200E92482 /* LaunchScreen.storyboard */; };
+		9B47396E1BC6A26200E92482 /* MZLaundryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47396D1BC6A26200E92482 /* MZLaundryTests.swift */; };
+		9B4739791BC6A26200E92482 /* MZLaundryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4739781BC6A26200E92482 /* MZLaundryUITests.swift */; };
+		9B4739871BC6A38000E92482 /* MZSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4739861BC6A38000E92482 /* MZSplashViewController.swift */; };
+		9B66650C1BD7AD1300E3B02E /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66650B1BD7AD1300E3B02E /* HttpTool.swift */; };
+		9B66650F1BD7B67000E3B02E /* ConstantsAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66650E1BD7B67000E3B02E /* ConstantsAD.swift */; };
+		9B6665111BD7FC3600E3B02E /* TestUITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6665101BD7FC3600E3B02E /* TestUITabBar.swift */; };
+		9B6A82B61BE31A2D00CA9465 /* CXCardReuseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A82B51BE31A2D00CA9465 /* CXCardReuseView.swift */; };
+		9BCA2CC71BD3FBDE008F9ED2 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA2CC61BD3FBDE008F9ED2 /* MainTabBarViewController.swift */; };
+		9BCA2CCB1BD4A4DD008F9ED2 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA2CCA1BD4A4DD008F9ED2 /* MeViewController.swift */; };
+		9BCA2CCD1BD611C7008F9ED2 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA2CCC1BD611C7008F9ED2 /* FirstPageViewController.swift */; };
+		9BD49A3E1BF5825000DD4687 /* PackWashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD49A3D1BF5825000DD4687 /* PackWashViewController.swift */; };
+		9BD49A411BF5ECA300DD4687 /* WashCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD49A401BF5ECA300DD4687 /* WashCartViewController.swift */; };
+		9BDEE17F1BCBEB9D0047E182 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEE17E1BCBEB9D0047E182 /* Constants.swift */; };
+		9BDEE1841BCBF6F80047E182 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEE1831BCBF6F80047E182 /* CustomColor.swift */; };
+		9BDEE1881BCBF8350047E182 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEE1871BCBF8350047E182 /* LoginViewController.swift */; };
+		9BEACFB71BDBC88800FE33DA /* MyIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEACFB61BDBC88800FE33DA /* MyIncomeViewController.swift */; };
+		9BEACFB91BDCF9EB00FE33DA /* MyIncomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEACFB81BDCF9EB00FE33DA /* MyIncomeData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B47396A1BC6A26200E92482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B47394A1BC6A26200E92482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4739511BC6A26200E92482;
+			remoteInfo = MZLaundry;
+		};
+		9B4739751BC6A26200E92482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B47394A1BC6A26200E92482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4739511BC6A26200E92482;
+			remoteInfo = MZLaundry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52144D530FE7649B44584DC4 /* Pods_MZLaundry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZLaundry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA2066866290F29F8CEBD96 /* Pods-MZLaundry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZLaundry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZLaundry/Pods-MZLaundry.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0894521BE7644F007FEE9D /* DailyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyInfo.swift; sourceTree = "<group>"; };
+		9B0894541BE76623007FEE9D /* OrderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderInfo.swift; sourceTree = "<group>"; };
+		9B0894561BE76B4B007FEE9D /* IncomeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeInfo.swift; sourceTree = "<group>"; };
+		9B0894581BE782A5007FEE9D /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		9B08945E1BE9E823007FEE9D /* SingleWashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleWashViewController.swift; sourceTree = "<group>"; };
+		9B0894611BEC64C4007FEE9D /* SingleWashCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleWashCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B0894A41BEE2A32007FEE9D /* Data4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data4Cell.swift; sourceTree = "<group>"; };
+		9B0894A81BF0649E007FEE9D /* ModiTabbar_SingleWash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModiTabbar_SingleWash.swift; sourceTree = "<group>"; };
+		9B0894AD1BF216F4007FEE9D /* AddToCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		9B4739521BC6A26200E92482 /* MZLaundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZLaundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4739551BC6A26200E92482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B47395A1BC6A26200E92482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B47395D1BC6A26200E92482 /* MZLaundry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MZLaundry.xcdatamodel; sourceTree = "<group>"; };
+		9B47395F1BC6A26200E92482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B4739621BC6A26200E92482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B4739641BC6A26200E92482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4739691BC6A26200E92482 /* MZLaundryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZLaundryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B47396D1BC6A26200E92482 /* MZLaundryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZLaundryTests.swift; sourceTree = "<group>"; };
+		9B47396F1BC6A26200E92482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4739741BC6A26200E92482 /* MZLaundryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZLaundryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4739781BC6A26200E92482 /* MZLaundryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZLaundryUITests.swift; sourceTree = "<group>"; };
+		9B47397A1BC6A26200E92482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4739861BC6A38000E92482 /* MZSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZSplashViewController.swift; sourceTree = "<group>"; };
+		9B6665071BD79A0700E3B02E /* MZLaundry-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZLaundry-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B66650B1BD7AD1300E3B02E /* HttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
+		9B66650E1BD7B67000E3B02E /* ConstantsAD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsAD.swift; sourceTree = "<group>"; };
+		9B6665101BD7FC3600E3B02E /* TestUITabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUITabBar.swift; sourceTree = "<group>"; };
+		9B6A82B51BE31A2D00CA9465 /* CXCardReuseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXCardReuseView.swift; sourceTree = "<group>"; };
+		9BCA2CC61BD3FBDE008F9ED2 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		9BCA2CCA1BD4A4DD008F9ED2 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		9BCA2CCC1BD611C7008F9ED2 /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		9BD49A3D1BF5825000DD4687 /* PackWashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackWashViewController.swift; sourceTree = "<group>"; };
+		9BD49A401BF5ECA300DD4687 /* WashCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashCartViewController.swift; sourceTree = "<group>"; };
+		9BDEE17E1BCBEB9D0047E182 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9BDEE1801BCBECCB0047E182 /* STHeiti-Light.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti-Light.ttc"; sourceTree = "<group>"; };
+		9BDEE1831BCBF6F80047E182 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		9BDEE1871BCBF8350047E182 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9BEACFB61BDBC88800FE33DA /* MyIncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIncomeViewController.swift; sourceTree = "<group>"; };
+		9BEACFB81BDCF9EB00FE33DA /* MyIncomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIncomeData.swift; sourceTree = "<group>"; };
+		EC6E32A31074151113B1C145 /* Pods-MZLaundry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZLaundry.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZLaundry/Pods-MZLaundry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B47394F1BC6A26200E92482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541908153096A1AB45F0C958 /* Pods_MZLaundry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739661BC6A26200E92482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739711BC6A26200E92482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B08945A1BE7A39B007FEE9D /* MyIncome */ = {
+			isa = PBXGroup;
+			children = (
+				9BEACFB81BDCF9EB00FE33DA /* MyIncomeData.swift */,
+				9B0894561BE76B4B007FEE9D /* IncomeInfo.swift */,
+				9B0894541BE76623007FEE9D /* OrderInfo.swift */,
+			);
+			name = MyIncome;
+			sourceTree = "<group>";
+		};
+		9B08945B1BE7A58C007FEE9D /* MyIncomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9BEACFB61BDBC88800FE33DA /* MyIncomeViewController.swift */,
+				9B0894581BE782A5007FEE9D /* IncomeTableViewCell.swift */,
+			);
+			name = MyIncomeView;
+			sourceTree = "<group>";
+		};
+		9B0894601BEC645E007FEE9D /* SingleWash */ = {
+			isa = PBXGroup;
+			children = (
+				9B0894AC1BF1E1D8007FEE9D /* C */,
+				9B0894AB1BF1E1D3007FEE9D /* V */,
+				9B0894AA1BF1E1CB007FEE9D /* M */,
+			);
+			name = SingleWash;
+			sourceTree = "<group>";
+		};
+		9B0894AA1BF1E1CB007FEE9D /* M */ = {
+			isa = PBXGroup;
+			children = (
+				9B0894A41BEE2A32007FEE9D /* Data4Cell.swift */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		9B0894AB1BF1E1D3007FEE9D /* V */ = {
+			isa = PBXGroup;
+			children = (
+				9B0894611BEC64C4007FEE9D /* SingleWashCollectionViewCell.swift */,
+				9B0894A81BF0649E007FEE9D /* ModiTabbar_SingleWash.swift */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		9B0894AC1BF1E1D8007FEE9D /* C */ = {
+			isa = PBXGroup;
+			children = (
+				9B08945E1BE9E823007FEE9D /* SingleWashViewController.swift */,
+				9B0894AD1BF216F4007FEE9D /* AddToCartViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		9B4739491BC6A26200E92482 = {
+			isa = PBXGroup;
+			children = (
+				9B4739541BC6A26200E92482 /* MZLaundry */,
+				9B47396C1BC6A26200E92482 /* MZLaundryTests */,
+				9B4739771BC6A26200E92482 /* MZLaundryUITests */,
+				9B4739531BC6A26200E92482 /* Products */,
+				9E69171020BF90C950F1E29A /* Pods */,
+				A1EF68C60A60E8A77890A7F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4739531BC6A26200E92482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4739521BC6A26200E92482 /* MZLaundry.app */,
+				9B4739691BC6A26200E92482 /* MZLaundryTests.xctest */,
+				9B4739741BC6A26200E92482 /* MZLaundryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4739541BC6A26200E92482 /* MZLaundry */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA2CCE1BD76153008F9ED2 /* Models */,
+				9BCA2CCF1BD76161008F9ED2 /* Views */,
+				9B4739881BC6A39300E92482 /* Controllers */,
+				9B4739551BC6A26200E92482 /* AppDelegate.swift */,
+				9B4739591BC6A26200E92482 /* Main.storyboard */,
+				9BDEE1801BCBECCB0047E182 /* STHeiti-Light.ttc */,
+				9B47395F1BC6A26200E92482 /* Assets.xcassets */,
+				9B4739611BC6A26200E92482 /* LaunchScreen.storyboard */,
+				9B4739641BC6A26200E92482 /* Info.plist */,
+				9B47395C1BC6A26200E92482 /* MZLaundry.xcdatamodeld */,
+				9B6665071BD79A0700E3B02E /* MZLaundry-Bridging-Header.h */,
+			);
+			path = MZLaundry;
+			sourceTree = "<group>";
+		};
+		9B47396C1BC6A26200E92482 /* MZLaundryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B47396D1BC6A26200E92482 /* MZLaundryTests.swift */,
+				9B47396F1BC6A26200E92482 /* Info.plist */,
+			);
+			path = MZLaundryTests;
+			sourceTree = "<group>";
+		};
+		9B4739771BC6A26200E92482 /* MZLaundryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4739781BC6A26200E92482 /* MZLaundryUITests.swift */,
+				9B47397A1BC6A26200E92482 /* Info.plist */,
+			);
+			path = MZLaundryUITests;
+			sourceTree = "<group>";
+		};
+		9B4739881BC6A39300E92482 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA2CC91BD4A498008F9ED2 /* TabBarView */,
+				9BCA2CC61BD3FBDE008F9ED2 /* MainTabBarViewController.swift */,
+				9BDEE1871BCBF8350047E182 /* LoginViewController.swift */,
+				9B4739861BC6A38000E92482 /* MZSplashViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9BCA2CC91BD4A498008F9ED2 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9BD49A3F1BF5EC8300DD4687 /* WashCart */,
+				9BD49A3C1BF5823300DD4687 /* PackWash */,
+				9B0894601BEC645E007FEE9D /* SingleWash */,
+				9B08945B1BE7A58C007FEE9D /* MyIncomeView */,
+				9BCA2CCA1BD4A4DD008F9ED2 /* MeViewController.swift */,
+				9BCA2CCC1BD611C7008F9ED2 /* FirstPageViewController.swift */,
+			);
+			name = TabBarView;
+			sourceTree = "<group>";
+		};
+		9BCA2CCE1BD76153008F9ED2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B08945A1BE7A39B007FEE9D /* MyIncome */,
+				9BDEE1831BCBF6F80047E182 /* CustomColor.swift */,
+				9B66650B1BD7AD1300E3B02E /* HttpTool.swift */,
+				9B66650E1BD7B67000E3B02E /* ConstantsAD.swift */,
+				9BDEE17E1BCBEB9D0047E182 /* Constants.swift */,
+				9B0894521BE7644F007FEE9D /* DailyInfo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9BCA2CCF1BD76161008F9ED2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B6665101BD7FC3600E3B02E /* TestUITabBar.swift */,
+				9B6A82B51BE31A2D00CA9465 /* CXCardReuseView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9BD49A3C1BF5823300DD4687 /* PackWash */ = {
+			isa = PBXGroup;
+			children = (
+				9BD49A3D1BF5825000DD4687 /* PackWashViewController.swift */,
+			);
+			name = PackWash;
+			sourceTree = "<group>";
+		};
+		9BD49A3F1BF5EC8300DD4687 /* WashCart */ = {
+			isa = PBXGroup;
+			children = (
+				9BD49A401BF5ECA300DD4687 /* WashCartViewController.swift */,
+			);
+			name = WashCart;
+			sourceTree = "<group>";
+		};
+		9E69171020BF90C950F1E29A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA2066866290F29F8CEBD96 /* Pods-MZLaundry.debug.xcconfig */,
+				EC6E32A31074151113B1C145 /* Pods-MZLaundry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1EF68C60A60E8A77890A7F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52144D530FE7649B44584DC4 /* Pods_MZLaundry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4739511BC6A26200E92482 /* MZLaundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B47397D1BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundry" */;
+			buildPhases = (
+				9828DE16741D838F711A6516 /* Check Pods Manifest.lock */,
+				9B47394E1BC6A26200E92482 /* Sources */,
+				9B47394F1BC6A26200E92482 /* Frameworks */,
+				9B4739501BC6A26200E92482 /* Resources */,
+				B1AB068E3E23C36468AED7A3 /* Embed Pods Frameworks */,
+				C57A5B40885E39F9906C3AA2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZLaundry;
+			productName = MZLaundry;
+			productReference = 9B4739521BC6A26200E92482 /* MZLaundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B4739681BC6A26200E92482 /* MZLaundryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4739801BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundryTests" */;
+			buildPhases = (
+				9B4739651BC6A26200E92482 /* Sources */,
+				9B4739661BC6A26200E92482 /* Frameworks */,
+				9B4739671BC6A26200E92482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B47396B1BC6A26200E92482 /* PBXTargetDependency */,
+			);
+			name = MZLaundryTests;
+			productName = MZLaundryTests;
+			productReference = 9B4739691BC6A26200E92482 /* MZLaundryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B4739731BC6A26200E92482 /* MZLaundryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4739831BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundryUITests" */;
+			buildPhases = (
+				9B4739701BC6A26200E92482 /* Sources */,
+				9B4739711BC6A26200E92482 /* Frameworks */,
+				9B4739721BC6A26200E92482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4739761BC6A26200E92482 /* PBXTargetDependency */,
+			);
+			name = MZLaundryUITests;
+			productName = MZLaundryUITests;
+			productReference = 9B4739741BC6A26200E92482 /* MZLaundryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B47394A1BC6A26200E92482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "l+";
+				TargetAttributes = {
+					9B4739511BC6A26200E92482 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9B4739681BC6A26200E92482 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9B4739511BC6A26200E92482;
+					};
+					9B4739731BC6A26200E92482 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9B4739511BC6A26200E92482;
+					};
+				};
+			};
+			buildConfigurationList = 9B47394D1BC6A26200E92482 /* Build configuration list for PBXProject "MZLaundry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B4739491BC6A26200E92482;
+			productRefGroup = 9B4739531BC6A26200E92482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4739511BC6A26200E92482 /* MZLaundry */,
+				9B4739681BC6A26200E92482 /* MZLaundryTests */,
+				9B4739731BC6A26200E92482 /* MZLaundryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4739501BC6A26200E92482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4739631BC6A26200E92482 /* LaunchScreen.storyboard in Resources */,
+				9B4739601BC6A26200E92482 /* Assets.xcassets in Resources */,
+				9B47395B1BC6A26200E92482 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739671BC6A26200E92482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739721BC6A26200E92482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9828DE16741D838F711A6516 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AB068E3E23C36468AED7A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZLaundry/Pods-MZLaundry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57A5B40885E39F9906C3AA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZLaundry/Pods-MZLaundry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B47394E1BC6A26200E92482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCA2CCB1BD4A4DD008F9ED2 /* MeViewController.swift in Sources */,
+				9BD49A411BF5ECA300DD4687 /* WashCartViewController.swift in Sources */,
+				9BD49A3E1BF5825000DD4687 /* PackWashViewController.swift in Sources */,
+				9B0894531BE7644F007FEE9D /* DailyInfo.swift in Sources */,
+				9B0894591BE782A5007FEE9D /* IncomeTableViewCell.swift in Sources */,
+				9BDEE1881BCBF8350047E182 /* LoginViewController.swift in Sources */,
+				9BCA2CCD1BD611C7008F9ED2 /* FirstPageViewController.swift in Sources */,
+				9B6665111BD7FC3600E3B02E /* TestUITabBar.swift in Sources */,
+				9B6A82B61BE31A2D00CA9465 /* CXCardReuseView.swift in Sources */,
+				9BCA2CC71BD3FBDE008F9ED2 /* MainTabBarViewController.swift in Sources */,
+				9BDEE1841BCBF6F80047E182 /* CustomColor.swift in Sources */,
+				9B0894621BEC64C4007FEE9D /* SingleWashCollectionViewCell.swift in Sources */,
+				9B66650C1BD7AD1300E3B02E /* HttpTool.swift in Sources */,
+				9B66650F1BD7B67000E3B02E /* ConstantsAD.swift in Sources */,
+				9B0894571BE76B4B007FEE9D /* IncomeInfo.swift in Sources */,
+				9BDEE17F1BCBEB9D0047E182 /* Constants.swift in Sources */,
+				9BEACFB71BDBC88800FE33DA /* MyIncomeViewController.swift in Sources */,
+				9B0894A91BF0649E007FEE9D /* ModiTabbar_SingleWash.swift in Sources */,
+				9B4739871BC6A38000E92482 /* MZSplashViewController.swift in Sources */,
+				9B08945F1BE9E823007FEE9D /* SingleWashViewController.swift in Sources */,
+				9B0894A51BEE2A32007FEE9D /* Data4Cell.swift in Sources */,
+				9B47395E1BC6A26200E92482 /* MZLaundry.xcdatamodeld in Sources */,
+				9B0894551BE76623007FEE9D /* OrderInfo.swift in Sources */,
+				9B0894AE1BF216F4007FEE9D /* AddToCartViewController.swift in Sources */,
+				9BEACFB91BDCF9EB00FE33DA /* MyIncomeData.swift in Sources */,
+				9B4739561BC6A26200E92482 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739651BC6A26200E92482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B47396E1BC6A26200E92482 /* MZLaundryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4739701BC6A26200E92482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4739791BC6A26200E92482 /* MZLaundryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B47396B1BC6A26200E92482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4739511BC6A26200E92482 /* MZLaundry */;
+			targetProxy = 9B47396A1BC6A26200E92482 /* PBXContainerItemProxy */;
+		};
+		9B4739761BC6A26200E92482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4739511BC6A26200E92482 /* MZLaundry */;
+			targetProxy = 9B4739751BC6A26200E92482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B4739591BC6A26200E92482 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B47395A1BC6A26200E92482 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B4739611BC6A26200E92482 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4739621BC6A26200E92482 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B47397B1BC6A26200E92482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B47397C1BC6A26200E92482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B47397E1BC6A26200E92482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA2066866290F29F8CEBD96 /* Pods-MZLaundry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MZLaundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZLaundry/MZLaundry-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B47397F1BC6A26200E92482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6E32A31074151113B1C145 /* Pods-MZLaundry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MZLaundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZLaundry/MZLaundry-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9B4739811BC6A26200E92482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZLaundryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZLaundry.app/MZLaundry";
+			};
+			name = Debug;
+		};
+		9B4739821BC6A26200E92482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZLaundryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZLaundry.app/MZLaundry";
+			};
+			name = Release;
+		};
+		9B4739841BC6A26200E92482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZLaundryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZLaundry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B4739851BC6A26200E92482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZLaundryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PlusLee.MZLaundryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZLaundry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B47394D1BC6A26200E92482 /* Build configuration list for PBXProject "MZLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B47397B1BC6A26200E92482 /* Debug */,
+				9B47397C1BC6A26200E92482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B47397D1BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B47397E1BC6A26200E92482 /* Debug */,
+				9B47397F1BC6A26200E92482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4739801BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4739811BC6A26200E92482 /* Debug */,
+				9B4739821BC6A26200E92482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4739831BC6A26200E92482 /* Build configuration list for PBXNativeTarget "MZLaundryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4739841BC6A26200E92482 /* Debug */,
+				9B4739851BC6A26200E92482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B47395C1BC6A26200E92482 /* MZLaundry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B47395D1BC6A26200E92482 /* MZLaundry.xcdatamodel */,
+			);
+			currentVersion = 9B47395D1BC6A26200E92482 /* MZLaundry.xcdatamodel */;
+			path = MZLaundry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B47394A1BC6A26200E92482 /* Project object */;
+}
