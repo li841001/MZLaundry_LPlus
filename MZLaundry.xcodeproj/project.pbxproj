@@ -17,6 +17,8 @@
 		9B0894A51BEE2A32007FEE9D /* Data4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894A41BEE2A32007FEE9D /* Data4Cell.swift */; };
 		9B0894A91BF0649E007FEE9D /* ModiTabbar_SingleWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894A81BF0649E007FEE9D /* ModiTabbar_SingleWash.swift */; };
 		9B0894AE1BF216F4007FEE9D /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0894AD1BF216F4007FEE9D /* AddToCartViewController.swift */; };
+		9B0DFB7B1C048E07004F9B06 /* CartSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DFB7A1C048E07004F9B06 /* CartSingleton.swift */; };
+		9B0DFB7D1C048F90004F9B06 /* ClothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DFB7C1C048F90004F9B06 /* ClothModel.swift */; };
 		9B4739561BC6A26200E92482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4739551BC6A26200E92482 /* AppDelegate.swift */; };
 		9B47395B1BC6A26200E92482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4739591BC6A26200E92482 /* Main.storyboard */; };
 		9B47395E1BC6A26200E92482 /* MZLaundry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B47395C1BC6A26200E92482 /* MZLaundry.xcdatamodeld */; };
@@ -70,6 +72,8 @@
 		9B0894A41BEE2A32007FEE9D /* Data4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data4Cell.swift; sourceTree = "<group>"; };
 		9B0894A81BF0649E007FEE9D /* ModiTabbar_SingleWash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModiTabbar_SingleWash.swift; sourceTree = "<group>"; };
 		9B0894AD1BF216F4007FEE9D /* AddToCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		9B0DFB7A1C048E07004F9B06 /* CartSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartSingleton.swift; sourceTree = "<group>"; };
+		9B0DFB7C1C048F90004F9B06 /* ClothModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothModel.swift; sourceTree = "<group>"; };
 		9B4739521BC6A26200E92482 /* MZLaundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZLaundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4739551BC6A26200E92482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B47395A1BC6A26200E92482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -275,6 +279,8 @@
 				9B66650E1BD7B67000E3B02E /* ConstantsAD.swift */,
 				9BDEE17E1BCBEB9D0047E182 /* Constants.swift */,
 				9B0894521BE7644F007FEE9D /* DailyInfo.swift */,
+				9B0DFB7A1C048E07004F9B06 /* CartSingleton.swift */,
+				9B0DFB7C1C048F90004F9B06 /* ClothModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -522,12 +528,14 @@
 				9BEACFB71BDBC88800FE33DA /* MyIncomeViewController.swift in Sources */,
 				9B0894A91BF0649E007FEE9D /* ModiTabbar_SingleWash.swift in Sources */,
 				9B4739871BC6A38000E92482 /* MZSplashViewController.swift in Sources */,
+				9B0DFB7B1C048E07004F9B06 /* CartSingleton.swift in Sources */,
 				9B08945F1BE9E823007FEE9D /* SingleWashViewController.swift in Sources */,
 				9B0894A51BEE2A32007FEE9D /* Data4Cell.swift in Sources */,
 				9B47395E1BC6A26200E92482 /* MZLaundry.xcdatamodeld in Sources */,
 				9B0894551BE76623007FEE9D /* OrderInfo.swift in Sources */,
 				9B0894AE1BF216F4007FEE9D /* AddToCartViewController.swift in Sources */,
 				9BEACFB91BDCF9EB00FE33DA /* MyIncomeData.swift in Sources */,
+				9B0DFB7D1C048F90004F9B06 /* ClothModel.swift in Sources */,
 				9B4739561BC6A26200E92482 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
